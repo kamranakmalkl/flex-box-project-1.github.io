@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+    /* background-color: rgb(32, 184, 184); */
+    /* max-width: 10px;
+    padding: 10px; */
+    font-size: 20px;
+
+}
+/* p{
+    background-color: rgb(12, 17, 17);
+} */
+
+/* header */
+.img{ 
+    background: url(./images/Amazing-Macro-Nature-Hd-Wallpaper.jpg) center center/cover;
+    height: 200px;
+    color: #fff;
+    text-align: center;
+    padding-top: 50px;
+    margin: 50px;
+    opacity: 90%;
+   
+}
+.box1,
+.box2, 
+.box3{
+    height: 500px;
+    width: 33.3%;
+    background-color: rgb(45, 61, 44);
+    margin-bottom: 100px;
+    padding-bottom: 100px;
+    padding-top: 10px;
+    text-align: center;
+    border: dotted black;
+    outline: 14px solid rgb(34, 34, 21);
+    
+}
+.box{
+    background-color:yellow;
+    height: 100px;
+    width: 33%;
+   }
+  

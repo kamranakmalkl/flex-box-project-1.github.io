@@ -1,0 +1,85 @@
+.box,
+.box-par{
+    background-color: blueviolet;
+    height: 15000px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.box1,
+.box2, 
+.box3{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;   
+}
+/* postion */
+/* postion relative */
+.box3{
+    /* position: relative;
+    top:10px;
+    left: 100px; */
+}
+.box2{
+    /* position: relative;
+    top: 100px;
+    left: 10px; */
+}
+/* postion absolute */
+.box1{
+    /* position: absolute;
+    top: 100px;
+    left: 100px; */
+}
+.box3{
+    /* position: absolute;
+    bottom: 10px;
+    right: 20px; */
+}
+.box4,
+.box5,
+.box6{
+    /* height: 100px;
+    width: 100px;
+    border: solid black; */
+}
+.box4{
+    /* position: absolute;
+    top: 750px;
+    left: 600px; */
+}
+/* postion foixed */
+.box1{
+    /* position: fixed;
+    top: 10px; */
+    /* bottom: 100px; */
+}
+/* postion stiky */
+.box2{
+    position: sticky;
+    top: 100px;
+    left: 500px;
+}
+.sticky{
+    position: sticky;
+    top: 10px;
+    right: 10px;
+}
+/* nth selecter */
+.number{
+    /* text-align: center; */
+    width: 500px;
+    margin: 0 auto;
+}
+li:nth-child(2n){
+    color: rgb(139, 11, 71);
+    background-color: aquamarine;
+}
+li:nth-child(3n){
+    background-color: yellow;
+}
+li:nth-child(even){
+    color: red;
+}
+li:nth-child(odd){
+    background-color: cadetblue;
+}

@@ -1,0 +1,234 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+  
+}
+/* navbar */
+.nav{
+    width: 100%;
+    height: 80px;
+    /* background-color: rgb(163, 112, 17); */
+    padding-top: 20px;
+    background-color: rgb(34, 19, 16);
+}
+.navbar-icon{
+    float: left;
+    margin-left: 40px;
+    color: rgba(240, 225, 16, 0.904);
+}
+ul a{
+    text-decoration: solid;
+    float: right;
+    margin-right: 20px;
+    background-color: rgb(203, 230, 86);
+    padding: 8px;
+}
+ul{
+  list-style: none;
+    float: right;
+}
+
+.header{
+    background:
+    url(./img/coffe.jpg) center center/cover;
+    height: 400px;
+    opacity: 3;
+    padding-top: 30px;
+    margin-bottom: 30px;
+    
+}
+.content{
+    color: rgb(94, 211, 16);
+    margin: 0 auto;
+    width: 500px;
+    text-align: center;
+    line-height: 30px;
+    
+}
+.content{
+    letter-spacing: 3.2px;
+    font-size: 15px;
+}
+.content p {
+    letter-spacing: 2px;
+    font-size: 17px;
+    margin: 5px 0;
+}
+.btn{
+    padding: 10px 20px;
+    background-color:rgb(211, 13, 185);
+    border: none;
+    border-radius: 14px;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+}
+/* sub-section */
+.sub-content{
+    width: 50%;
+    /* float: left; */
+    display: inline-block;
+    text-align: center;
+    padding: 20px;
+}
+.sub-content h2{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: rgb(48, 34, 51);
+}
+.sub-content p{
+    line-height: 30px;
+    margin-bottom: 20px;
+    width: 300px;
+    text-align: center;
+    margin-left: 150px;
+    color: royalblue
+}
+.sub-img{
+    background:linear-gradient(rgba(2, 1, 1,0.0),rgba(41, 35, 35,0.0)), 
+    url(./img/fish.png) center center/cover;
+    height: 300px;
+    width: 30%;
+    display: inline-block;
+    margin-bottom: 40px;
+    /* background-image:linear-gradient(rgba(49, 9, 9,0.8),rgba(83, 83, 30,0.6)), 
+    url(./img/water-vector.webp);
+     */
+} 
+
+/* sub section */
+section{
+    background-color: rgb(143, 204, 204);
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.services{
+    height: 500px;
+    width: 100%;
+    margin-top: 100px;
+}
+.web-development,
+.graphic,
+.animation,
+.service-6,
+.service-7{
+    display: inline;
+    width: 100px;
+    line-height: 60px;
+}
+.web-development,
+ .video-Editing {
+    float: right;
+    width: 300px; 
+}
+.web-development{
+    margin-right: 400px;
+}
+.box-1 {
+    width: 100%;
+    margin-bottom: 100px;
+}
+.box-1 {
+    margin: 0px 450px;
+}
+ .box-2{
+    margin-left: 900px; 
+}
+.service-6
+.service-7{
+    margin-left: 100px;
+    width: 100px;
+}
+.box-1{
+    margin-bottom: 100px;
+}
+.img{
+    height: 200px;
+    width: 200px;
+}
+.services h1{
+   text-align: center;
+    margin: o auto;
+    margin-bottom: 3000px;
+    font-size: 100px;
+}
+ 
+
+/* contact us */
+
+.form{
+    margin: 0 auto;
+    /* width: 500px; */
+    text-align: center;
+    padding: 30px;
+}
+label{
+    font-size: 15px;
+}
+input{
+    height: 25px;
+    width: 400px;
+    font-size: 15px;
+    /* border: none; */
+    margin-bottom: 30px;
+    padding: 15px;
+}
+
+input:focus{
+    background-color: rgb(250, 250, 250);
+    color: black;
+}
+.msg{
+    float: left;
+    text-align: left;
+    margin-left: 349px;
+}
+#msg{
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+#msg:focus{
+    background-color: rgb(233, 134, 20);
+    color: rgb(122, 6, 6);
+}
+.form{
+    margin-bottom: 30px;
+    font-size: 15px;
+}
+
+/* footer */
+.footer,
+.contacts,
+.copyright{
+    text-align: center;
+    height: 200px;
+    background-color: rgb(164, 190, 182);
+    padding: 30px;
+}
+.logo-with-text {
+    display: inline-block;
+    /* margin-right: 1090px; */
+    /* float: right; */
+    margin-right: 1000px;
+
+    
+}
+.contacts{
+    /* margin-left: 590px; */
+    display: inline-block;
+    float: right;
+
+    
+} 
+.ft-logo{
+    float: left;
+}
+.copyright{
+    display: inline-block;
+   margin-left: 500px;
+ 
+}
+

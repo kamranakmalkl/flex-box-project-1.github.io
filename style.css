@@ -1,0 +1,100 @@
+*{
+    overflow-x:hidden ;
+
+}
+.box{
+    background-color: rgb(112, 90, 194);
+    height: 2000px;
+    width: 500%;
+    margin-bottom: 10px;
+    
+}
+
+
+.box1,
+.box2,
+.box3 {
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    /* display: inline-block; */
+}
+
+/* postion */
+
+.box3{
+    /* position: relative; */
+    /* top: 10px;
+    bottom: 10px;
+    left: 100px; */
+}
+.box2{
+    /* position: relative;
+    top: 100px;
+    left: 10px; */
+}
+
+/* position absolute */
+
+.box1 {
+    /* position: absolute;
+    top: 100px;
+    left: 100px; */
+
+}
+.box3{
+    /* position: absolute;
+    bottom: 200px;
+    right: 10px; */
+}   
+
+.box4 
+.box5
+.box6 {
+      /* height: 100px;
+    width: 100px;
+    border: 2px solid black;      */
+}
+.box4 {
+    /* position: absolute;
+    top:800px, */
+    
+} 
+
+/* postion fixed */
+
+.box5 {
+      /* position: fixed; 
+    top: 23px;
+    bottom: 100px;
+    left: 100px;  */
+}
+
+/* postion sticky */
+
+div.box1{
+     /* position: -webkit-sticky;
+    top: 0;
+    position: sticky; */
+} 
+.sticky{
+    /* width: 100px;
+    height: 100px;
+    position: -webkit-sticky;
+    top: 0;
+    border: 10px; */
+}
+.list {
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+}
+
+li:nth-child(2n){
+    color: rgb(223, 13, 13);
+}
+li:nth-child(3n){
+    background-color: aqua;
+}
+
+
